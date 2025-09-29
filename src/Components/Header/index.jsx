@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './styles.css';
-
+// Header component inicial do quiz
 const Header = () => {
     return (
         <header className="header">

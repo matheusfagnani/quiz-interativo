@@ -1,5 +1,6 @@
 const questions = [
-    // questões de exemplo
+    // questões de exemplo  do questionario inerativo
+    
   {
     question: "Qual é a capital da França?",
     options: ["Paris", "Londres", "Roma", "Berlim"],

@@ -1,6 +1,8 @@
 // question card component
 import React from 'react';
 import './styles.css';
+
+// criando o componente que mostra a pergunta e as opções e o card de pergunta
 const QuestionCard = ({ question, options, onAnswerSelected }) => {
     return (
         <div className="question-card">
