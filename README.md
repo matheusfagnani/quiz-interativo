@@ -42,8 +42,7 @@ Inicie o servidor de desenvolvimento do Vite. O projeto estará acessível no se
 Bash
 
 npm run dev
-# ou
-yarn dev
+
 📂 Estrutura de Arquivos
 A estrutura do projeto é crucial para o seu funcionamento:
 
