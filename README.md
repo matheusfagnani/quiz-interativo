@@ -35,7 +35,7 @@ Bash
 
 npm install
 # ou
-yarn install
+
 2. Rodar o Servidor de Desenvolvimento
 Inicie o servidor de desenvolvimento do Vite. O projeto estará acessível no seu navegador (geralmente em http://localhost:5173/).
 
