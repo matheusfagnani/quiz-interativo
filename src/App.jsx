@@ -1,35 +1,23 @@
 import { useState } from 'react'
-import questions from './data/questions'
+import ScoreBoard from './Components/ScoreBoard'
 import Header from './Components/Header'
+import QuestionCard from './Components/QuestionCard'
+import questions from './data/questions'  
 import './App.css'
 
 function App() {
-
+  const [tela, setTela] = useState(0)
 
   return (
-    <div>
+ <>
+ <Header />
+ <ScoreBoard />
+ <QuestionCard />
+ 
 
-      <Header /> 
-      <Questions />
+ 
 
-      <div>
-       <h1>Quiz Interativo</h1>
-        <p>Teste seus conhecimentos!</p>
-      </div>
-
-
-      
-       
-
-      
-   
-
-      
-
-    </div>
-
-
-
+ </>
   )
 }
 
