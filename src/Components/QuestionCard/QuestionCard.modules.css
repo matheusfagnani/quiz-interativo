@@ -40,5 +40,16 @@
 }
 
 questioncard button.correct {
-  background-color: #c8e6c9;
+  background-color: #1cb621;
 }
+
+questioncard button.incorrect {
+  background-color: #ed0b22;
+}
+
+.quetioncard .feedback {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+

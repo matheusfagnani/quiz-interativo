@@ -1,25 +1,29 @@
-export default questions = {
-    "questions": [ 
-        {
-            "question": "Qual é a capital da França?",
-            "options": ["Berlim", "Madrid", "Paris", "Lisboa"],
-            "answer": "Paris"   
-        },
-        {
-            "question": "Quem escreveu 'Dom Quixote'?",     
-            "options": ["Miguel de Cervantes", "William Shakespeare", "J.K. Rowling", "Mark Twain"],
-            "answer": "Miguel de Cervantes"
-        },
-        {
-            "question": "Qual é a fórmula da água?",
-            "options": ["H2O", "CO2", "O2", "NaCl"],
-            "answer": "H2O"
-        },
-
-        {
-            "question": "Qual planeta é conhecido como o Planeta Vermelho?",
-            "options": ["Terra", "Marte", "Júpiter", "Saturno"],
-            "answer": "Marte"   
-        }
-    ]
-};
+const questions = [
+  {
+    question: "Qual é a capital da França?",
+    options: ["Paris", "Londres", "Roma", "Berlim"],
+    answer: "Paris"
+  },
+  {
+    question: "Qual é a cor do céu?",
+    options: ["Azul", "Verde", "Amarelo", "Preto"],
+    answer: "Azul"
+  },
+  {
+    question: "Qual é o maior planeta do sistema solar?",
+    options: ["Terra", "Marte", "Júpiter", "Saturno"],
+    answer: "Júpiter"
+  },
+  // Adicione mais perguntas abaixo
+  {
+    question: "Quem escreveu 'Dom Casmurro'?",
+    options: ["Machado de Assis", "José de Alencar", "Monteiro Lobato", "Clarice Lispector"],
+    answer: "Machado de Assis"
+  },
+  {
+    question: "Qual é o símbolo químico da água?",
+    options: ["H2O", "O2", "CO2", "H2"],
+    answer: "H2O"
+  }
+];
+export default questions;
